@@ -1,0 +1,39 @@
+# GitHub Cheatsheet
+
+## Basic Git Commands
+- `git init` - Initialize a new Git repository.
+- `git clone <repo_url>` - Clone a repository from GitHub.
+- `git status` - Check the status of your working directory.
+- `git add <file>` - Stage changes for commit.
+- `git commit -m "message"` - Commit staged changes with a message.
+- `git push` - Push changes to the remote repository.
+- `git pull` - Fetch and merge changes from the remote repository.
+
+## Branching
+- `git branch` - List all branches.
+- `git branch <branch_name>` - Create a new branch.
+- `git checkout <branch_name>` - Switch to a branch.
+- `git merge <branch_name>` - Merge a branch into the current branch.
+
+## Undo Changes
+- `git reset <file>` - Unstage a file.
+- `git checkout -- <file>` - Discard changes in a file.
+- `git revert <commit_hash>` - Revert a specific commit.
+
+## GitHub Specific
+- `git remote add origin <repo_url>` - Link a local repo to a GitHub repo.
+- `git push -u origin <branch_name>` - Push a branch to GitHub and set upstream.
+- `git pull origin <branch_name>` - Pull changes from a specific branch on GitHub.
+
+## Collaboration
+- Fork a repository - Create your own copy of someone else's repo.
+- Open a pull request - Propose changes to a repository.
+- Review pull requests - Review and discuss proposed changes.
+
+## Useful Tips
+- `.gitignore` - Specify files to ignore in your repository.
+- `git log` - View commit history.
+- `git diff` - Show changes between commits or working directory.
+- `git stash` - Temporarily save changes without committing.
+
+For more details, visit: https://docs.github.com/
